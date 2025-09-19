@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	float cgpa;
+	char grade;
+	int age;
+	char name[50] ;
+	scanf("%f %c %d %s",&cgpa,&grade,&age,name);
+	printf("%f\n%c\n%d\n%s\n",cgpa,grade,age,name);
+	return 0;
+}

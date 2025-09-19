@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+	char name[20];
+	int age ;
+	char grade;
+	float cgpa;
+	printf("Enter NAME\nEnter AGE\n \EnterGRADE\nEnter CGPA\n");
+	scanf("%s %d %c %f",&name,&age,&grade,&cgpa);
+	printf("name :%s\nage :%d\ngrade:%c\n cgpa: %.2f", name,age,grade,cgpa);
+	return 0;
+}

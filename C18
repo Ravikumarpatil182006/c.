@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+	int num;
+	printf("enter num\n");
+	scanf("%d",&num);
+	if (num>30){
+		printf("you are pass");
+	} else {
+		printf("fail");
+		if(num<=30){
+			printf("you fail");
+		}
+	}
+	return 0;
+	
+}

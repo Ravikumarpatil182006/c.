@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int age;
+    printf("Enter age \n");
+    scanf("%d",&age);
+    
+    if(age>=60){
+        printf("you are retired \n");
+    } else if (age>=18){
+        printf("you are adult \n");
+    } else if(age<=17&& age>=13) {
+        printf("you are teen ager\n");
+    } else  {
+        printf("not defined\n");
+    }
+    return 0;
+}
